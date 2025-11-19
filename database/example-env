@@ -1,0 +1,16 @@
+# Example Telegram environment variables
+# Replace the placeholder values with your real credentials before use.
+
+# Bot token (format: 123456789:ABCDefGhIjkLMnoPQRsTuvWXyZ)
+TELEGRAM_BOT_TOKEN=123456789:ABCDefGhIjkLMnoPQRsTuvWXyZ_example
+
+# Optional (for user-login libraries like Telethon)
+TELEGRAM_API_ID=123456
+TELEGRAM_API_HASH=abcdef1234567890abcdef1234567890
+
+# Optional conveniences
+TELEGRAM_BOT_USERNAME=my_example_bot
+TELEGRAM_CHAT_ID=-1001234567890
+
+# Optional webhook endpoint (if using webhooks)
+TELEGRAM_WEBHOOK_URL=https://example.com/telegram/webhook
